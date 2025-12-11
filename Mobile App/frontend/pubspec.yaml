@@ -1,0 +1,43 @@
+name: frontend
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.6.12
+  image_picker: ^1.1.2
+  firebase_storage: ^12.0.0
+  file_picker: ^8.0.7
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+  intl: ^0.20.2
+  printing: ^5.13.1
+  fluttertoast: ^8.2.9
+  uuid: ^4.5.1
+  http: ^1.4.0
+  lottie: ^3.3.1
+  page_transition: ^2.2.1
+  shared_preferences: ^2.5.3
+  badges: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - image/  # Your existing image directory remains unchanged
+   # New directory for splash screen assets only
+
+
